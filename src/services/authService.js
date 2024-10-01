@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://localhost:7037/api";
+const API_URL = "http:tubitak-proje.dev.reisetech.io/api/qre/api";
 
 export const register = (username, email, password) => {
   return axios.post(API_URL + "/Auth/register", {
