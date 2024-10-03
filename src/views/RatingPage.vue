@@ -140,7 +140,7 @@ export default {
   },
   methods: {
     fetchUserEmail() {
-      this.userEmail = localStorage.getItem("userEmail") || "";
+      this.userEmail = localStorage.getItem("username") || "";
       if (!this.userEmail) {
         console.error("Kullanıcı e-postası bulunamadı");
       }
